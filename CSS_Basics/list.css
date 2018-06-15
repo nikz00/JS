@@ -1,0 +1,39 @@
+*{
+    font-size: 30px;
+    background-color: blue; 
+}
+ol{
+    background-color:red;
+}
+ol li{
+    background-color: cyan;
+    font-family:serif;
+    font-style: oblique;
+    font-weight: lighter;
+}
+ol li ol li{
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: gold;
+}
+ol li ol li ol li{
+    font-family: fantasy;
+    font-style: unset;
+    font-weight: bold;
+    background-color: green;
+}
+ol li ol{
+    display: none;
+}
+ol li ol li:hover ol{
+    display: block;
+    transition: .5s;
+}
+ol li ol li ol{
+    display: none;
+}
+ol li:hover ol{
+    display: block;
+    transition: .5s;
+}
